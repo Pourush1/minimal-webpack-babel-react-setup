@@ -1,5 +1,11 @@
-import sum from './sum.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
+ 
+const title = 'React with Webpack and Babel. Pourush';
+ 
+ReactDOM.render(
+  <div>{title}</div>,
+  document.getElementById('app')
+);
 
-console.log(sum(3,4))
-
-document.querySelector('#app').innerHTML = 'Hello from Pourush.....'
+module.hot.accept();
