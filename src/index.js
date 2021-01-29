@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App'
  
-const title = 'React with Webpack and Babel. Pourush';
+const title = 'React with Webpack and Babel. Pourush Shrestha ';
  
 ReactDOM.render(
-  <div>{title}</div>,
+  <App title={title} />,
   document.getElementById('app')
 );
 
